@@ -16,8 +16,9 @@ describe "A cell" do
     expect(cell.death).to be_nil
   end
 
-  xit 'has neighbors, which is initially an empty array' do
-
+  it 'has neighbors, which is initially an empty array' do
+    cell = Cell.new
+    expect(cell.has_neighbors).to be_nil
   end
 
   xit 'has a tick method' do

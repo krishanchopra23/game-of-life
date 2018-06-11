@@ -9,6 +9,10 @@ class Cell
     @death
   end
 
+  def has_neighbors
+    @has_neighbors
+  end
+
 
 end
 
