@@ -13,7 +13,7 @@ describe "A cell" do
 
   it 'can die' do
     cell = Cell.new
-    expect(cell.death).to exist
+    expect(cell.death).to be_nil
   end
 
   xit 'has neighbors, which is initially an empty array' do

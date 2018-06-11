@@ -5,6 +5,10 @@ class Cell
     @alive = true
   end
 
+  def death
+    @death
+  end
+
 
 end
 
