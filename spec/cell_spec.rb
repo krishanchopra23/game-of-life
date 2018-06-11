@@ -21,8 +21,9 @@ describe "A cell" do
     expect(cell.has_neighbors).to be_nil
   end
 
-  xit 'has a tick method' do
-
+  it 'has a tick method' do
+    cell = Cell.new
+    expect(cell.tick_method).to be_truthy
   end
 
   describe 'after a tick' do
