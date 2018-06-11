@@ -28,8 +28,10 @@ describe "A cell" do
 
   describe 'after a tick' do
 
-    xit 'a live cell with fewer than two live neighbors dies' do
-
+    it 'a live cell with fewer than two live neighbors dies' do
+      cell = Cell.new
+      #@has_neighbors == 1
+      expect(cell.determine_death).to_not be_nil
     end
 
     xit 'a dead cell with fewer than two live neighbors stays dead' do

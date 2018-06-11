@@ -17,6 +17,15 @@ class Cell
     @tick = true
   end
 
+  def determine_death
+    @has_neighbors = 1
+    #if @has_neighbors < 2
+    #  @death = true
+    #else
+     # @death = false
+    #end
+  end
+
 
 end
 
