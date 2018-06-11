@@ -13,6 +13,10 @@ class Cell
     @has_neighbors
   end
 
+  def tick_method
+    @tick = true
+  end
+
 
 end
 
